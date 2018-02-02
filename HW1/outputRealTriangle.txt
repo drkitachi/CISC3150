@@ -1,0 +1,23 @@
+Enter the x and y coordinates of point A
+2 1
+Enter the x and y coordinates of point B
+3 1
+Enter the x and y coordinates of point C
+4 1
+This is a fake triangle
+
+Enter the x and y coordinates of point A
+3 5
+Enter the x and y coordinates of point B
+4 1
+Enter the x and y coordinates of point C
+1 1
+This is a real triangle
+
+Enter the x and y coordinates of point A
+2 -5
+Enter the x and y coordinates of point B
+10 -2
+Enter the x and y coordinates of point C
+-5 6
+This is a real triangle
