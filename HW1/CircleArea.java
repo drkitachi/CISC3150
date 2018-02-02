@@ -1,3 +1,8 @@
+/*
+	Question 2: Calculate areas with user's input of radius.
+
+*/
+
 import java.util.Scanner;
 
 public class CircleArea{
