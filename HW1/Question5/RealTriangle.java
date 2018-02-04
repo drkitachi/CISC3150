@@ -4,6 +4,7 @@
 */
 
 import java.util.Scanner;
+import RealTriangle.TwoDPoint;
 
 public class RealTriangle{
 	private static TwoDPoint a;
@@ -68,26 +69,5 @@ public class RealTriangle{
 		if((sideAB + sideCA) <= sideBC) return false;
 		
 		return true;
-	}
-		
-	public class TwoDPoint{
-		private double x;
-		private double y;
-		
-		public double getX(){
-			return x;
-		}
-		
-		public double getY(){
-			return y;
-		}
-		
-		public void setX(double x){
-			this.x = x;
-		}
-		
-		public void setY(double y){
-			this.y = y;
-		}
 	}
 }
