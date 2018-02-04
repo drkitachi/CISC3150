@@ -1,5 +1,6 @@
 /*
 	Question 4: Read file with numbers from command line and print them out in the screen
+	On the terminal: java ReadFileFromCMD <fileInputForCMD.txt
 */
 
 import java.util.Scanner;
