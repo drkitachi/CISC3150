@@ -1,0 +1,26 @@
+Enter the coordinates x and y of the center of circle 1 and the radius
+1 2 3
+Enter the coordinates x and y of the center of circle 2 and the radius
+3 -1 4
+The two circles overlap each other
+
+
+Enter the coordinates x and y of the center of circle 1 and the radius
+4 2 3
+Enter the coordinates x and y of the center of circle 2 and the radius
+5 2 2
+The two circles are touching each other
+
+
+Enter the coordinates x and y of the center of circle 1 and the radius
+2 1 5
+Enter the coordinates x and y of the center of circle 2 and the radius
+2 1 2
+The two circles are within each other
+
+
+Enter the coordinates x and y of the center of circle 1 and the radius
+2 0 2
+Enter the coordinates x and y of the center of circle 2 and the radius
+-50 -25 3
+The two circles are separate from each other
