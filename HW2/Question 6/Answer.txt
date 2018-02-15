@@ -1,0 +1,11 @@
+Question 6: In our class, we talked about how the Scanner class doesn't have a method 
+for tokenizing individual characters. But you're hell bent on forcing the 
+Scanner class to tokenize the individual characters. What should you set 
+your delimiter to?
+
+I will set my delimiter to something similar to: [\\p{javaWhitespace},',\",\\,]+
+							^	      ^	^  ^
+			For these marks, I will put each character that I will like to use as the delimiter
+
+Resource: https://github.com/CISC3120/sampleprograms/blob/master/fileio/ScannerDemo/src/main/java/edu/cuny/brooklyn/cisc3120/fileio/ScannerDemo.java
+Old program from my CISC3120 class where the professor showed us how to add different delimiters into the Scanner class. + sign means all of them (I believe)

@@ -1,0 +1,5 @@
+Enter a word to check if it is a palindrome: madam
+madam is a palindrome
+
+Enter a word to check if it is a palindrome: alex
+alex is not a palindrome
