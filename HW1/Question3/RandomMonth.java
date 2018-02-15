@@ -9,7 +9,6 @@ import java.util.Random;
 public class RandomMonth{
 	public static void main(String[] args){
 		Random rnd = new Random();
-		
 		int month = rnd.nextInt(11) + 1;
 		
 		switch(month){
