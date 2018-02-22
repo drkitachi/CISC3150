@@ -1,0 +1,11 @@
+MyString s after calling s.toString(): Hello all youuu5
+Calling length(): 16
+After calling s.toLowerCase(): hello all youuu5
+After calling s.toUpperCase(): HELLO ALL YOUUU5
+MyString u: Hello
+Calling s.compare(u) we get that they are not equal
+Calling s.compare(s) we get that they are equal
+Calling s.charAt(2): l
+Calling s.getMyString(): Hello all youuu5
+Calling s.substring(1, 3): el
+Calling MyString.valueOf(250) and MyString.valueOf(-500): 250 & -500
