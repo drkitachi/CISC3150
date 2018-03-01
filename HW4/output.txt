@@ -1,0 +1,26 @@
+
+All possible combinations are: 
+aeg
+aeh
+aei
+afg
+afh
+afi
+beg
+beh
+bei
+bfg
+bfh
+bfi
+ceg
+ceh
+cei
+cfg
+cfh
+cfi
+deg
+deh
+dei
+dfg
+dfh
+dfi
