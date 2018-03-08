@@ -1,5 +1,8 @@
 /*
 	Question 1: computing PI.
+	Some optimization I tried were to change the Random generator being used, SplittableRandom is considerably faster than the Random class
+	and a little bit faster than ThreadLocalRandom. I also tried using bitwise shift left for multiplication and avoided the use of the method
+	pow from the math class. I separated the generation of points into 4 threads, 1 billion for each thread and then add everything together.
 	Resources for optimization:
 	https://www.javaworld.com/article/2077647/build-ci-sdlc/make-java-fast--optimize-.html
 	https://blog.jooq.org/2015/02/05/top-10-easy-performance-optimisations-in-java/
@@ -75,34 +78,6 @@ class FindHitThreading extends Thread{
 	}
 	
 	
-}
-
-
-
-/*
-
-C:\Users\DrkItachi\cisc3150\HW5>java MonteCarlo3
-3.1416043323
-200123
-
-C:\Users\DrkItachi\cisc3150\HW5>javac MonteCarlo3.java
-
-C:\Users\DrkItachi\cisc3150\HW5>java MonteCarlo3
-0.3141647099
-19301
-
-C:\Users\DrkItachi\cisc3150\HW5>javac MonteCarlo3.java
-
-C:\Users\DrkItachi\cisc3150\HW5>java MonteCarlo3
-3.1415855075
-192445
-
-C:\Users\DrkItachi\cisc3150\HW5>javac MonteCarlo3.java
-
-C:\Users\DrkItachi\cisc3150\HW5>java MonteCarlo3
-3.141594415
-196849
-
-*/		
+}	
 		
 		
