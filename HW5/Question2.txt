@@ -1,0 +1,40 @@
+1a) At compile time and runtime it goes to the class Dog.
+	Actual method called is from String call(int k) from Dog class.
+	It prints "Woof, woof, woof!"
+	This is an example of overloading.
+
+1b) At compile time it goes to Object class and at runtime it goes to Cat class.
+	Method being called is String toString() from Cat class. 
+	It prints "I'm a cat, go away!"
+	This is an example of overriding. (Override the toString() from Object class)
+	
+1c) At compile time it goes to Object class and at runtime it goes to Pet class.
+	There will be an error since Object class does not have the method call().
+	
+1d) At compile time and runtime it goes to the class Pet.
+	Method being called is the toString() from Object class.
+	It will print whatever @Pet hash value.
+	This is an example of inheritance since the method being called is from	
+	the Class Object which Pet inherits from.
+	
+1e) At compile time it goes to Pet class and runtime it goes to Dog class.
+	Method being called is call() from the Dog class.
+	It prints "woof!"
+	This is an example of overriding/polymorphism. (Override the class Pet)
+	
+1f) At compile time and runtime it goes to class Cat.
+	Method being called is the toString(String b) from Cat class.
+	It prints "Come here, kitty? ... Don't waste my time."
+	This is an example of overloading.
+	
+1g) At compile time and runtime it goes to Cat class.
+	This gives an error since the call() method does not accept an integer argument.
+	
+1h) At compile time and runtime it goes to Dog class.
+	It calls the feet() method from Pet class.
+	It prints "four".
+	Example of inheritance that Dog gets the methods from Pet.
+	
+1f) At compile time it goes to Pet class and runtime it goes to Dog class.
+	It will give out an error during compilation since the method call() from Pet
+	class can't accept an integer. It can be fixed through casting.
