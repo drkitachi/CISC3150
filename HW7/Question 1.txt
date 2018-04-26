@@ -1,0 +1,23 @@
+class blah{
+	public void someMethod(){
+		try{
+			throw new NullPointerException();
+		}
+		catch(Throwable t){
+			System.out.println("Caught!");
+			throw t;
+		}
+	}
+}
+
+For this code it seems that the compiler is checking at the actual type of Throwable t instead of the declare type. The reason why the compiler does not require us
+to handle the exception on the method or at least throws Throwable on the signature of the method is because the compiler reads line by line and it sees that
+we are throwing a NullPointerException which is an unchecked exception, once the compiler knows it is a unchecked exception it will just not keep checking this exception
+so when it is caught either as a Throwable or Exception or any parent of NullPointerException it still treats this exception as unchecked since it is ignoring the exception
+and the its declared type as well.
+
+Source:
+
+	https://stackoverflow.com/questions/23650854/why-are-unchecked-exceptions-not-checked-by-java-compiler?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+	
+	Professor Hui Chen from Brooklyn College

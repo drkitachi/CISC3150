@@ -1,0 +1,40 @@
+java Calculator 2 + 3
+
+5.000000
+
+java Calculator 2 + 3 x 5
+
+17.000000
+
+java Calculator ( 5 x 5 ) / 25
+
+1.000000
+
+java Calculator 2 + 5 x ( 8 + 2 )
+
+52.000000
+
+java Calculator 2 + 5 x ( 8 )
+
+42.000000
+
+java Calculator 2 / 0
+You divided by 0
+
+java Calculator 2 + +
+Algebra fail, you are missing a number where a number should be or it isn't an actual number or you are missing an operator
+
+java Calculator )
+Algebra fail, you are missing a number where a number should be or it isn't an actual number or you are missing an operator
+
+java Calculator 2 x 5 + n
+You enter an unsupported operation
+
+java Calculator ( 5 +
+Algebra fail, you are missing a number where a number should be or it isn't an actual number or you are missing an operator
+
+java Calculator ( 5 + 55 ) + ( 5
+There is something wrong with your usage of paranthesis
+
+java Calculator 2 2 + 5
+Algebra fail, you are missing a number where a number should be or it isn't an actual number or you are missing an operator

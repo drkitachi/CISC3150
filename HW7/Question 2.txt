@@ -1,0 +1,31 @@
+public class blah{
+	public static void main(String[] args){
+		A a = new A();
+		a.someMethod();
+	}
+}
+
+interface myinterface{
+	default public void sayHello(){
+		System.out.println("Hello");
+	}
+}
+
+class A implements myinterface{
+	public void someMethod(){
+		myinterface.super.sayHello();
+	}
+}
+
+The reason why it is possible to call an Interface's default method by using the Interface_name.super().method_called() is because default methods are just virtual extension methods or 
+defender methods.
+Default methods in Interface is a new feature from Java 8 and they have a relationship with lambdas in Java. We have default methods because when we use lambdas, once it is published we
+can't break the original implementations of interfaces and that is why we have default methods.
+The weird syntax to access the default methods of an interface is created for the purpose that if we want to use the original implementation of the method instead of Overriding it, 
+we can just refer it.
+
+
+Sources:
+
+	https://stackoverflow.com/questions/19976487/explicitly-calling-a-default-method-in-java
+	
