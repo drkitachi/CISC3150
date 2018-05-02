@@ -93,7 +93,7 @@ public class FileTree{
 			else
 				last = false;
 			
-			boolList.add(i == fs.listFiles().length-1);
+			boolList.add(last);
 			
 			builder(str, depth+1, fs.listFiles()[i], last, boolList); 
 			
