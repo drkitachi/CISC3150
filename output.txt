@@ -1,0 +1,426 @@
+.
+├──.git
+│   ├──.COMMIT_EDITMSG.swp
+│   ├──COMMIT_EDITMSG
+│   ├──config
+│   ├──description
+│   ├──FETCH_HEAD
+│   ├──HEAD
+│   ├──hooks
+│   │   ├──applypatch-msg.sample
+│   │   ├──commit-msg.sample
+│   │   ├──post-update.sample
+│   │   ├──pre-applypatch.sample
+│   │   ├──pre-commit.sample
+│   │   ├──pre-push.sample
+│   │   ├──pre-rebase.sample
+│   │   ├──pre-receive.sample
+│   │   ├──prepare-commit-msg.sample
+│   │   └──update.sample
+│   ├──index
+│   ├──info
+│   │   └──exclude
+│   ├──logs
+│   │   ├──HEAD
+│   │   └──refs
+│   │       ├──heads
+│   │       │   └──master
+│   │       └──remotes
+│   │           └──origin
+│   │               └──master
+│   ├──objects
+│   │   ├──04
+│   │   │   ├──a1d70225dfb646c6da2824f2ae5194d7621534
+│   │   │   └──c956400b645d81c9bb4baf89d873ded8c23cd2
+│   │   ├──08
+│   │   │   ├──334d46df74da4e3e3f00f9278b829e368d340e
+│   │   │   └──643be8b59ef38b58dba044da425a8824ed239e
+│   │   ├──0c
+│   │   │   └──7486c9b57ee56d0e082d02e4756b621bdefd09
+│   │   ├──11
+│   │   │   └──7541f075e3fab71cccf0f6dea5affc7627949e
+│   │   ├──12
+│   │   │   ├──11cc1ece1e0d3b0d4b268ef82437aa3582634c
+│   │   │   └──ed5a8c66456010ee23faac484bd6b23323d1b6
+│   │   ├──15
+│   │   │   └──966f90d9d88097116f036988c38bd1cbf85923
+│   │   ├──17
+│   │   │   └──929a7cc591262d63a83939edd5388ad78e3821
+│   │   ├──18
+│   │   │   ├──4ad8b5fadcdef4854b80e2a26afc62ca480a97
+│   │   │   ├──9029d0ee573def2729d1c8fe56e51bec04ec7c
+│   │   │   └──9f5d4672c422442fcf584071739e6c0a83e583
+│   │   ├──19
+│   │   │   └──b52bf4c638fd850e14935dc92fa9b26dffc102
+│   │   ├──1a
+│   │   │   ├──49d95858ffec34e8768c3d403b8bcaf4014e8f
+│   │   │   └──75af5ab607340717c3fb082073d2f8536505c2
+│   │   ├──1c
+│   │   │   ├──e2fd2b4b5bc1de186c30f4f7c298199a03dc77
+│   │   │   └──f907fd07690a2e1b81538abd6eff98400d990e
+│   │   ├──1e
+│   │   │   ├──34cb1d1fb8c958a0b366ff1ec83715acc8c253
+│   │   │   └──47fa5c263aa992fef928f5c146f4c5e68ed31b
+│   │   ├──20
+│   │   │   └──94b1d0cd5b92381da01ba65fc1460d3e282b90
+│   │   ├──22
+│   │   │   └──c0ced02b66b95848dfa67654012f59e1c4bf5b
+│   │   ├──23
+│   │   │   ├──257d2b6ba735552acdcbd677722f7a7eda703c
+│   │   │   └──eede574a3a5b9a1156a592743856a6c3577fef
+│   │   ├──26
+│   │   │   └──6737789cb4a41b07deb50f03e73298eb89c32f
+│   │   ├──27
+│   │   │   └──1537f0dbcb0427632d3ffb01cfe7b8b50a6280
+│   │   ├──28
+│   │   │   └──cdc40a806eed6fe6462fd395396246bc39b0f9
+│   │   ├──2b
+│   │   │   ├──1165ff9eeca1c3712c973359937a2e7af9d420
+│   │   │   └──b427b630dd8f9647d5924179e3ed9df4b13f12
+│   │   ├──2f
+│   │   │   └──5925f85f3c573786b94d96f15507057f7e55c5
+│   │   ├──30
+│   │   │   └──50fa9c873901e8e324e03ca99ceb6bf590edf5
+│   │   ├──31
+│   │   │   └──93f83c5e90084cd1b11cb944ae096085c46bda
+│   │   ├──32
+│   │   │   └──08dc1bd106e4e7f89bb3bf05102443c0d1178d
+│   │   ├──34
+│   │   │   ├──18aa7ac0f72c941a954973d445c3628d26cc79
+│   │   │   └──751c62184720d71af85c326cb6a84ae443f46c
+│   │   ├──35
+│   │   │   └──0c6837876d12f0063c4ab9a2a99bff75d6acd5
+│   │   ├──36
+│   │   │   └──be93845cb35eb049c94b123770eacecac45e98
+│   │   ├──38
+│   │   │   └──f479c81aed6f46e77ced074449a81dc18ccb34
+│   │   ├──3c
+│   │   │   └──ea007cb2c4c694091fdab26210638dd1afb3ab
+│   │   ├──3d
+│   │   │   └──167b9dba5a1e4ed3e34a858041dc1998e0dd71
+│   │   ├──3e
+│   │   │   └──4052a3b740cce690d00ced1c030e83e9c2b4af
+│   │   ├──3f
+│   │   │   └──98b853d580ba4c041b87cf96be307ec7af1bc4
+│   │   ├──41
+│   │   │   └──18aa45550dd31d18f1a088280abd137c3eb9f5
+│   │   ├──47
+│   │   │   ├──1d0e34d80666a36b472ad3d3874e5f92b4c9ae
+│   │   │   └──3dd8f0c61ef1cf9e9def2c956d2eed0135ffb0
+│   │   ├──4c
+│   │   │   └──c959375c97cdca73e57565750a163af84d10b9
+│   │   ├──4d
+│   │   │   ├──77d7cd8d6d5412431dbb472f04cb736723ef0c
+│   │   │   └──9c9b414b60c12c4aac691a7f1549b8481d79b3
+│   │   ├──4e
+│   │   │   └──0f38278f4cafc444524c41ee7c3f1f93c5aa21
+│   │   ├──50
+│   │   │   └──32646424d5a08d513d21486b582b4ea17eaedf
+│   │   ├──51
+│   │   │   └──738fd9c141bfe00e25a9f27e4b632fffb1fdd2
+│   │   ├──55
+│   │   │   ├──d2ffff8e1e4d64ad7876e60b3b69dcd7a8e43f
+│   │   │   └──de1ee4e01bc08b10d29bcb0bb2a93a173d7082
+│   │   ├──56
+│   │   │   └──fa82e2d147292a879eeca5d007f6a139374574
+│   │   ├──59
+│   │   │   └──913f475f4647942b07a0396dc84a4519fb1ef0
+│   │   ├──5f
+│   │   │   ├──c4f76b80caa059f042288f0285a08f9ed245db
+│   │   │   └──f926c653e7d991ad7ee02c2c9c7508573b0836
+│   │   ├──60
+│   │   │   └──a65c782012232e28025e6934268fe32ff1755a
+│   │   ├──62
+│   │   │   └──bf5a38405493d50231b52df6ac99836fad82fc
+│   │   ├──64
+│   │   │   └──ea80596a9f4c110f55d1fe9fa6ac460fd2d0f7
+│   │   ├──65
+│   │   │   ├──15b7dd1326d8c77d752f0c5e6cb310f0b02915
+│   │   │   └──7fec79434c67e8e040dbdf63e8efe172522f7a
+│   │   ├──67
+│   │   │   ├──359aab3d17f4341517c654b286ba6dadfa171a
+│   │   │   └──6c368596338359e8dd362c072b6316d331b026
+│   │   ├──69
+│   │   │   └──bef589258b41186d66c2e3dbcc03ee0e7b602c
+│   │   ├──6a
+│   │   │   └──4eb556336738d5b83dfa26687261d58fe6c80c
+│   │   ├──6c
+│   │   │   └──3b2ab4d6f978d03bd44e6727a1d4ae5e43b22a
+│   │   ├──6d
+│   │   │   └──5445c889317bfccedb426f666907ee3c62177e
+│   │   ├──70
+│   │   │   └──f7ca10037d33ef17d6c5da7710143675bb0a0e
+│   │   ├──72
+│   │   │   └──f42144160ffba66d6fba7d2a66e36f39008f64
+│   │   ├──75
+│   │   │   ├──b4d5f743d2f37367b10ada7128a9084ea2cc88
+│   │   │   └──d36724c3a9f782b2098219a1949e9f3174b155
+│   │   ├──76
+│   │   │   ├──5d75e32ef24ccb15c77fc5cde5567d21d4b1f8
+│   │   │   └──d5f501b2d696b448314b758f9022f4e5f26588
+│   │   ├──77
+│   │   │   ├──24e6fc5b47de4b2c3e6725e073c1cabce67e9d
+│   │   │   └──2d94069bee4471e729b7936b1fdb7f602c8b1c
+│   │   ├──7a
+│   │   │   ├──d2108ae2fbabd0b114bdbc70b6187fe54d6619
+│   │   │   └──d2ada88ae2af6d35b81d8c97fd9b0cea08ac07
+│   │   ├──7c
+│   │   │   ├──25f0a8e9c45e8ced15322b61de8a7a8e90548f
+│   │   │   └──3663be2b90ece833b9ec15b9a7cbba22f95f77
+│   │   ├──7d
+│   │   │   ├──0e759a72dead4757a178a6db4f3d502919a0b0
+│   │   │   └──fd8f5cab97b9079dcd1b1e150199fff7f98ec8
+│   │   ├──81
+│   │   │   ├──4cf45b7f24d9838f6bd0e455875999b5f2a47a
+│   │   │   ├──e8f8651206984fc30ccb894e2f787dd07edb7d
+│   │   │   └──ff6c048218c39c897b9563c8aee0719666fd47
+│   │   ├──85
+│   │   │   ├──7e2f00b5ad44da9cfe0a6473a09e4316444198
+│   │   │   └──ecde096e2f8da04c8d95f2ab33c4070926cc49
+│   │   ├──87
+│   │   │   └──7edde7720712871f78cae065bce082d0c23f89
+│   │   ├──89
+│   │   │   ├──b0361cca96ddf1ab008399acd8f2c728279c6b
+│   │   │   └──dd41904a7bdf84a07ceb005d13bdc4e56dd136
+│   │   ├──8b
+│   │   │   └──bde6357ef1217f84bd36b50f4a8949a83c7e7e
+│   │   ├──8c
+│   │   │   └──4723d77e9e78e90614971e11f3ca542fbf31c7
+│   │   ├──8f
+│   │   │   └──43f6cb5e578239b312051ff178f71931b7496c
+│   │   ├──90
+│   │   │   ├──81061835c001167a05f51a151beb992986747a
+│   │   │   └──b394d4e7f7575af1faed493e736a4b3a700246
+│   │   ├──91
+│   │   │   └──f0afe120a358c68e724b5b01b7f01268441291
+│   │   ├──95
+│   │   │   └──b0d3aac032250c2a5eec1723243aba305f259e
+│   │   ├──96
+│   │   │   └──a6a8c549f3666ce9bce389bc884e570bf13bb6
+│   │   ├──9c
+│   │   │   ├──27d62421db53f4a2733555e2e2b1936f87aaf9
+│   │   │   └──839c1753286ff5cbf6e2b35bd7263f92a55813
+│   │   ├──9d
+│   │   │   └──6750ba72e7092ef152ecbe76422b0f62101d6b
+│   │   ├──9f
+│   │   │   └──493ef09a928149ef0709c7a6c06942b423e95a
+│   │   ├──a1
+│   │   │   └──93a31413548a83facda8024129c26fae5db4ec
+│   │   ├──a4
+│   │   │   └──dfffb743f4f8faa5e8793ec54feaab294b640e
+│   │   ├──a5
+│   │   │   ├──1b985a071ff0bdb751d17b585fd329a3ca72ee
+│   │   │   └──86fe7e5043ad356037ae1b56283618c51b58bd
+│   │   ├──a9
+│   │   │   ├──4ef775befb3a501284677a275059f0bad6d80a
+│   │   │   └──cfca8b0bf98b76074eac090f0de35a14ed2d18
+│   │   ├──ac
+│   │   │   └──aa1436711f09c4e0c7462dfb86c091603f80ee
+│   │   ├──ad
+│   │   │   └──5567e2a33be1c54e64b6eeae59978f2e640794
+│   │   ├──ae
+│   │   │   └──65681b8b17a4920d8dd1e2cb2177d64766027c
+│   │   ├──af
+│   │   │   └──2a8a8199a93fedadc950817d5b5da530ac7944
+│   │   ├──b4
+│   │   │   ├──5a8e83600fd85d87aac9b5179ccf9e249e5d5e
+│   │   │   ├──74a300b86f67de64bffdccf5890d87dee8a011
+│   │   │   └──bf753f267ea99d717202365d35e193f5ec98fd
+│   │   ├──b6
+│   │   │   └──5beb4994e175e1573d1be8f27c4be40858f3d2
+│   │   ├──bc
+│   │   │   ├──2b2bb3873a93ca195f2d9b1baf96e042eeff6f
+│   │   │   └──7d70e1cecd988de30710dfaa80ddd49f8b9ed1
+│   │   ├──bd
+│   │   │   └──42188a7f715c4eea2eedb29cdbdd1d2cb6cec7
+│   │   ├──be
+│   │   │   ├──4696db29c2a600eedbea207ef245c31535802a
+│   │   │   └──88e33baa35ef9071ca93bc66377f14f255a2e1
+│   │   ├──c0
+│   │   │   ├──1d3fb353454e451d7f52d3c963e74b5fc36509
+│   │   │   ├──4549cfe67b34d0e0d5ef0a594f7cfe51ac7765
+│   │   │   ├──645d1c33e1226c8c4bac22a60e4e9bca544ad4
+│   │   │   ├──8b42c40838c8b9cfd00618bdfa1eafdfaac3b5
+│   │   │   └──ede8206cfa25fe2b0fb94c6e46104e59e80bbf
+│   │   ├──c1
+│   │   │   └──37923664e9007721ec075c63b9f2f8a601c475
+│   │   ├──c4
+│   │   │   ├──c048d5ff7b5a6c3fc5816838bc496412f4ede9
+│   │   │   └──ed876643064baf7c4084eb0bf00781a91062ae
+│   │   ├──c5
+│   │   │   └──a1d293534bcf267079afef54270c36c0793fbe
+│   │   ├──c7
+│   │   │   ├──1a14b066880d629716f0a24cfc8ce107c2bd3c
+│   │   │   ├──307bfd7e8904a34e4b4f8119bcb37cf46cc47f
+│   │   │   └──416d425ac7096acf347a12be13f9b953c00f24
+│   │   ├──c9
+│   │   │   └──0ca8f61824df4d768608b46fe92c2483e40d74
+│   │   ├──ca
+│   │   │   └──a1843a5c9029c8d26b4bf6a4a43c8dc80adf00
+│   │   ├──cb
+│   │   │   └──debf6e84edb2212ac76c6daee7d45977d561aa
+│   │   ├──cc
+│   │   │   └──2f1f5507a0f3758222f07ebbf7b06c14091dbc
+│   │   ├──ce
+│   │   │   ├──2ae68d8ad777c9cec942a31d06b7bc44510f50
+│   │   │   ├──6b2323a6f095954738aabf077f0815c2e3d5bb
+│   │   │   └──e2ccf4f2b0d3603dd19474d8b20ccdeb36506e
+│   │   ├──d3
+│   │   │   └──17ed0a78aac13787c5b342243941a86bc1a2bd
+│   │   ├──d5
+│   │   │   ├──0e85ab6e3d9c583513a25d9d0867ebc92aa80a
+│   │   │   ├──4d2c1cd093a72356447f0b5cb7da5d81f252a3
+│   │   │   └──6ba549baecd2566f3ae5bf52498781d29a7de9
+│   │   ├──d7
+│   │   │   └──16278495cc844d61f81fdc8b0215016a9e7cbf
+│   │   ├──d9
+│   │   │   └──f484646b05b1e7cea1f60b2e88c6266de9a8a3
+│   │   ├──da
+│   │   │   └──c486c441ac61faec715bad218a190a316cfc28
+│   │   ├──dd
+│   │   │   └──fd8c7fe700d1ffa717788ff003d39c34adc23b
+│   │   ├──de
+│   │   │   └──4893f13ac2ec3ee021db7f11f52344b0e712ae
+│   │   ├──e1
+│   │   │   ├──768a3671eff04b246b947e874a80a91472ec51
+│   │   │   └──b216475fd253da28525706fb2b31899440f114
+│   │   ├──e2
+│   │   │   └──b92372307de1f498b6cd90494f9960e2405c63
+│   │   ├──e3
+│   │   │   ├──50b8a1fc01f5f2b6c5ed49134e9d3105278150
+│   │   │   └──824feb1d49c205f83d8e0a249ee0e591f320b7
+│   │   ├──e5
+│   │   │   └──9cca8c1865cb8a9c27784dc91f80a5dbf93dd3
+│   │   ├──e6
+│   │   │   └──9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   ├──e7
+│   │   │   └──190ceadf06b95bed2956db57a9fb51512dd37f
+│   │   ├──e8
+│   │   │   └──ee3ccb4bebf7afda24678ff7e58ff4803f7390
+│   │   ├──ea
+│   │   │   └──0e1250e30fc7b6598517740b564ecef17f18fa
+│   │   ├──eb
+│   │   │   ├──07a003aaf5c64daeb075fceda379058e95ff94
+│   │   │   ├──4640b8e7608806bc9b88afbfd0d51d99c1476b
+│   │   │   └──84b3747b295a7b648857404638981e4bba11fd
+│   │   ├──ec
+│   │   │   └──df5f86a12bcdeccba3150af14e07042ad78abe
+│   │   ├──ef
+│   │   │   ├──7fe660d624cd0295eb820fd1611c6aed79b0c3
+│   │   │   └──86ca8813251e6461e5e690342977d43e5e08de
+│   │   ├──f0
+│   │   │   └──6ef0641d1ee83bafe4e6b9b01c568592bc9f1a
+│   │   ├──f6
+│   │   │   └──935c92cfcc2dca7b57090e6a5d12837a93550a
+│   │   ├──f8
+│   │   │   ├──83ad1fca912728848cca5a3fafdbea17c2ffc0
+│   │   │   └──c9229a607b5717525016fca92b0458884d5682
+│   │   ├──f9
+│   │   │   ├──3bfdbca76c64fcbf55b947d0c24dae6bd0d6d8
+│   │   │   └──58ad61592b70c3f1edea7c38127cfe2a6b0a1e
+│   │   ├──fa
+│   │   │   └──84ac9d8eecbc48511b2dd265c0ce2c6355a006
+│   │   ├──fc
+│   │   │   ├──0ef7dfd08d655311f73d70fda51e506bbf4f26
+│   │   │   └──3962191864f87ac498aac0ca90e1e2b13b30c8
+│   │   ├──fd
+│   │   │   └──18fd4efa7e2f793f674f8f77d02574ebbeb240
+│   │   ├──info
+│   │   └──pack
+│   ├──ORIG_HEAD
+│   └──refs
+│       ├──heads
+│       │   └──master
+│       ├──remotes
+│       │   └──origin
+│       │       └──master
+│       └──tags
+├──A.class
+├──B.class
+├──blah.class
+├──blah.java
+├──Box.class
+├──glah.class
+├──H19-RecBacktrackExamples.pdf
+├──Hello.class
+├──Hello.java
+├──HW1
+│   ├──Question1
+│   │   └──Statement.txt
+│   ├──Question2
+│   │   ├──CircleArea.java
+│   │   └──outputCircleArea.txt
+│   ├──Question3
+│   │   ├──outputRandomMonth.txt
+│   │   └──RandomMonth.java
+│   ├──Question4
+│   │   ├──fileInputForCMD.txt
+│   │   └──ReadFileFromCMD.java
+│   ├──Question5
+│   │   ├──outputRealTriangle.txt
+│   │   └──RealTriangle
+│   │       ├──RealTriangle.java
+│   │       ├──RealTriangleApp.java
+│   │       └──TwoDPoint.java
+│   └──Question6
+│       ├──outputTwoCircles.txt
+│       └──TwoCircles
+│           ├──Circle.java
+│           ├──TwoCircles.java
+│           └──TwoCirclesApp.java
+├──HW2
+│   ├──Question 1
+│   │   ├──TriangleTree.java
+│   │   └──TriangleTreeOutput.txt
+│   ├──Question 2
+│   │   ├──DisplayCalendar.java
+│   │   └──DisplayCalendarOutput.txt
+│   ├──Question 3
+│   │   ├──Palindrome.java
+│   │   └──PalindromeOutput.txt
+│   ├──Question 4
+│   │   └──Answer.txt
+│   ├──Question 5
+│   │   ├──ComaScanner.java
+│   │   └──ComaScanner.txt
+│   └──Question 6
+│       └──Answer.txt
+├──HW3
+│   ├──MyStringClass
+│   │   ├──MyString.java
+│   │   └──MyStringApp.java
+│   └──output.txt
+├──HW4
+│   ├──Combinations.java
+│   ├──data.txt
+│   └──output.txt
+├──HW4.zip
+├──HW5
+│   ├──MonteCarlo.java
+│   ├──MonteCarlo2.java
+│   ├──MonteCarlo3.java
+│   ├──output1.txt
+│   ├──output3.txt
+│   └──Question2.txt
+├──HW5.zip
+├──HW6
+│   ├──NQueen.java
+│   ├──NQueen_2.class
+│   ├──NQueen_2.java
+│   └──output.txt
+├──HW6.zip
+├──HW7
+│   ├──Calculator.java
+│   ├──outputTest.txt
+│   ├──Question 1.txt
+│   └──Question 2.txt
+├──HW7.zip
+├──Meh.class
+├──Midterm1questions.txt
+├──MyClass.class
+├──output.txt
+├──README.md
+├──Short.java
+├──test.utf
+├──ToBinary.class
+└──ToBinary.java

@@ -43,12 +43,12 @@
 
 import java.util.*;
 import java.io.*;
-public class FileTree{
+public class blah{
 	public static void main(String[] args)throws IOException{
 		File fs = new File(".");
 		StringBuilder st = new StringBuilder("");
 		ArrayList<Boolean> ar = new ArrayList<>();
-
+		
 		builder(st, 0, fs, false, ar);
 		
 		System.out.print(st.toString());
@@ -74,7 +74,8 @@ public class FileTree{
 		else if(depth == 1){
 			str.append(charac + "\u2500\u2500" + fs.getName() + "\r\n");
 		} else if(depth > 1){
-			for(int i = 0; i < depth-1; i++){
+			str.append("\u2502   ");
+			for(int i = 1; i < depth-1; i++){
 				if(!boolList.get(i))	
 					str.append("    ");
 				else

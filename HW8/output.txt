@@ -1,4 +1,108 @@
 .
+├──blah.class
+├──CISC3110
+│   ├──assignments
+│   │   ├──00-Preliminaries
+│   │   │   ├──a.out
+│   │   │   └──hello.cpp
+│   │   ├──01-ReviewAndInputPatterns
+│   │   │   ├──file_input
+│   │   │   ├──final
+│   │   │   │   ├──gpaprogram.cpp
+│   │   │   │   ├──gpastud.stdout
+│   │   │   │   ├──gpa_program
+│   │   │   │   └──students.txt
+│   │   │   ├──gpaprogram.cpp
+│   │   │   ├──roster1.txt
+│   │   │   ├──roster2.txt
+│   │   │   ├──roster3.txt
+│   │   │   └──students.txt
+│   │   ├──02-Arrays
+│   │   │   ├──functions
+│   │   │   ├──functions.cpp
+│   │   │   ├──functions.stdout
+│   │   │   ├──incomplete
+│   │   │   │   ├──functions.cpp
+│   │   │   │   └──test.cpp
+│   │   │   └──pgm.output
+│   │   ├──03-Arrays-SeparateCompilation
+│   │   │   ├──functions
+│   │   │   ├──functions.cpp
+│   │   │   ├──functions.h
+│   │   │   ├──functions.stdout
+│   │   │   └──functionsTest.cpp
+│   │   ├──04-Time-I
+│   │   │   ├──time.cpp
+│   │   │   ├──time.h
+│   │   │   ├──time.stdin
+│   │   │   ├──time.stdout
+│   │   │   ├──timeDemo
+│   │   │   └──timeDemo.cpp
+│   │   ├──05-TimeClass
+│   │   │   ├──time.cpp
+│   │   │   ├──time.h
+│   │   │   ├──time.stdin
+│   │   │   ├──time.stdout
+│   │   │   ├──timeDemo
+│   │   │   └──timeDemo.cpp
+│   │   ├──06-Counter
+│   │   │   ├──counter
+│   │   │   ├──counter.cpp
+│   │   │   ├──counter.h
+│   │   │   ├──counterDemo.cpp
+│   │   │   └──counterDemo.stdout
+│   │   ├──07-CStrings
+│   │   │   ├──mycstring.cpp
+│   │   │   ├──mycstring.h
+│   │   │   ├──mycstring_app
+│   │   │   ├──mycstring_app.cpp
+│   │   │   └──mycstring_app.stdout
+│   │   └──08-Arrays
+│   │       ├──Array
+│   │       ├──array.cpp
+│   │       ├──array.h
+│   │       ├──Array.stdout
+│   │       └──arrayApp.cpp
+│   ├──CISC 3110 Programming Patterns.html
+│   ├──CISC 3110 Programming Patterns_archivos
+│   │   └──LectureNotes.css
+│   ├──CISC 3110 Vim Resources.html
+│   ├──CISC 3110 Vim Resources_archivos
+│   │   └──LectureNotes.css
+│   ├──CISC 3110 — Class Calendar.html
+│   └──CISC 3110 — Class Calendar_archivos
+│       └──calendar.css
+├──cisc3810
+│   ├──Assn2
+│   │   ├──chart.jpg
+│   │   ├──chart.psd
+│   │   ├──Database Form.txt
+│   │   ├──QUERIES.sql
+│   │   ├──relations.txt
+│   │   └──world_data.sql
+│   ├──Assn3
+│   │   ├──boats.csv
+│   │   ├──buyers.csv
+│   │   ├──queries.sql
+│   │   ├──tables.sql
+│   │   └──transactions.csv
+│   ├──Assns456
+│   │   ├──Assns456.pdf
+│   │   ├──createTableHW4.sql
+│   │   ├──fundamentals.csv
+│   │   ├──headers.csv
+│   │   ├──hw4query.sql
+│   │   ├──hw5query.sql
+│   │   ├──prices.csv
+│   │   ├──securities.csv
+│   │   └──tablequery.sql
+│   ├──titanic.csv
+│   ├──titanic_assn.sql
+│   └──titanic_demo.sql
 ├──FileTree.class
 ├──FileTree.java
-└──output.txt
+├──output.txt
+└──zs
+    ├──Nueva carpeta
+    ├──Nueva carpeta (2)
+    └──Nueva carpeta (3)

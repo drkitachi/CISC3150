@@ -1,0 +1,80 @@
+1) Draw the diagrams for the following
+
+a) Date date1 = new Date(49506);
+   Date date2 = new Date(59606);
+   Date date3 = date1;
+
+b) String str1 = "Hello";
+   String str2 = new String("Hello");
+   String str3 = "Hello";
+
+c) String st1 = "Hello!";
+   st1 = "World.";
+
+2)
+
+a) Write a class called Hello that prints out "Hello World!" Do not chain this main:
+	public static void main(String[] args){
+		System.out.println("World!");
+	}
+
+b)  Write a code that reads values from the keyboard and prints them right back, stop when -999 is enter. Use Scanner.nextInt() so it reads the next integer in the buffer.
+	Start with the main.
+
+3) In a maximum of three sentences, explain what does each piece of code do.
+
+a) for(int i = 1; i != 0; i++){}
+
+b) for(double i = 0.1; i != 0.0; i+=0.1){}
+
+4)
+
+a) Write a piece of code that will reverse the order of the elements of the 2D array. For example, if you have a 2D array that has {{2, 5, 8}{3, 7}} after the reverse will be
+   {{8, 5, 2}{7, 3}}. Suppose you have a my_array[][] with value already. Start with the main(). (Suppose the values are int for your convenience)
+
+b) Create a vertical ragged array with 5 elements on the first column, 10 elements on the second column, and 3 elements in the third column.
+
+5)Suppose you have an array of average avg_array that contains values from 0.00 to 100.00 and an array of strings with maximum 20 characters called names_array. 
+Write a code that prints out the average and after 3 taps prints out the name on the same line. The average have to be alined in the same decimal point and the names 
+have to be aligned but it doesn't matter how many characters it has.
+
+For example:
+
+ 83.32			James Smith
+100.56			Hellen Patag Anoa
+
+6) Show what is print out by the following code, if there is an error indicate what is the error.
+
+public class Main{
+	public static void main(String[] args){
+		rectangle rect = new rectangle(2, 4);
+		rect.perimeter();
+	}
+}
+
+class square{
+	int length;
+
+	square(int length){
+		this.length = length;
+	}
+
+	public int perimeter(){
+		return 4*length;
+	}
+}
+
+class rectangle extend square{
+	int length, width;
+
+	rectangle(int length, int width){
+		this.length = length;
+		this.width = width;
+	}
+
+	public int perimeter(){
+		return 2*length + 2*width;
+	}
+}
+
+7) Write a class called DoNotExtend which is not allowed to have any children. Write a method called pointlessMethod() for the user to use.
