@@ -75,7 +75,7 @@ public class FileTree{
 			str.append(charac + "\u2500\u2500" + fs.getName() + "\r\n");
 		} else if(depth > 1){
 			for(int i = 0; i < depth-1; i++){
-				if(!boolList.get(i))	
+				if(boolList.get(i))	
 					str.append("    ");
 				else
 					str.append("\u2502   ");
@@ -93,7 +93,7 @@ public class FileTree{
 			else
 				last = false;
 			
-			boolList.add(i != fs.listFiles().length-1);
+			boolList.add(i == fs.listFiles().length-1);
 			
 			builder(str, depth+1, fs.listFiles()[i], last, boolList); 
 			
