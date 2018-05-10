@@ -1,0 +1,10 @@
+We were unable to instatiate an Object method... Yeah... The Object.java file was in the directory that you were working on (the desktop) and
+you were trying to show us the native variable on the Object class so basically you were messing with the Object class. 
+
+The reason why the code when the method notifyAll() is uncommented and without the synchronized keyword ends the program
+when it's run is because notifyAll() throws an exception which throws it to main and it causes the code to end. The reason why it is throwing 
+an exception is because one of the variables, product, which is a global boolean variable in the class economy is being accessed and modified 
+silmutaneously by the different threads that are running and this causes an error. IllegalMonitorStateException is the exception being thrown.
+
+To fix the code, we must put synchronized since that is the one of the purpose of the keyword because it acts as a lock controlling the 
+access of each thread to our "shared" variable.
